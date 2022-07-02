@@ -5,13 +5,7 @@ import Card from '@mui/joy/Card';
 import CardCover from '@mui/joy/CardCover';
 import img from '../assets/7.jpg';
 const Resume = () => {
-    const [numPages, setNumPages] = React.useState(null);
-    const [pageNumber, setPageNumber] = React.useState(1);
-    var file = window.location.href.slice() + '/h.pdf';
-    console.log(file)
-    function onDocumentLoadSuccess({ numPages }) {
-        setNumPages(numPages);
-    }
+
     return (
         <CssVarsProvider>
             <Sheet variant='soft' color='neutral' sx={{ my: 0 }}>

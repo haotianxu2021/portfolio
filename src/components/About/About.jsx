@@ -49,13 +49,13 @@ const About = () => {
           <a href='https://drive.google.com/uc?export=download&id=1cDicK_qW64GDluRm2If9wfQi062TtW9i' download>
             <Button size='sm' variant='solid' color='info' startIcon={<DownloadIcon />} >Download CV</Button>
           </a>
-          <a href='https://www.linkedin.com/in/haotian-xu-xht2021/' target="_blank">
+          <a href='https://www.linkedin.com/in/haotian-xu-xht2021/' target="_blank" rel="noreferrer">
             <Button size='sm' variant='solid' color='info' startIcon={<LinkedInIcon />} >LinkedIn</Button>
           </a>
           <a href='mailto:horacexu@usc.edu'>
             <Button size='sm' variant='solid' color='info' startIcon={<EmailIcon />} >Email</Button>
           </a>
-          <a href='https://i.ibb.co/wN14y9K/mmqrcode1656306683940.jpg' target="_blank" download>
+          <a href='https://i.ibb.co/wN14y9K/mmqrcode1656306683940.jpg' target="_blank" rel="noreferrer" download>
             <Button size='sm' variant='solid' color='info' startIcon={<ChatIcon />} >Wechat</Button>
           </a>
         </Box>

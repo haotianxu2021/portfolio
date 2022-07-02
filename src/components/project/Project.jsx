@@ -5,8 +5,6 @@ import Button from '@mui/joy/Button';
 import { CssVarsProvider } from '@mui/joy/styles';
 import Typography from '@mui/joy/Typography';
 import Card from '@mui/joy/Card';
-import CardCover from '@mui/joy/CardCover';
-import CardContent from '@mui/joy/CardContent';
 import CardOverflow from '@mui/joy/CardOverflow';
 import AspectRatio from '@mui/joy/AspectRatio';
 import img1 from '../../assets/1.png';
@@ -61,10 +59,10 @@ const Project = () => {
                                 Machine Learning | Image Classification | Transfer Learning | Raspberry Pi | Python
                             </Typography>
                             <div>
-                                <a href='https://docs.google.com/presentation/d/1ZeDIQm6fdL_iKaeQyrdqYqUYyckX4ubWSSmkKrBbH7o/edit?usp=sharing' target='_blank' >
+                                <a href='https://docs.google.com/presentation/d/1ZeDIQm6fdL_iKaeQyrdqYqUYyckX4ubWSSmkKrBbH7o/edit?usp=sharing' target='_blank' rel="noreferrer" >
                                     <Button size='sm' variant='plain' sx={{ paddingLeft: 0, marginLeft: 0, paddingRight: 0, marginRight: 0, }} >
                                         Presentation</Button></a>
-                                <a href='https://haotianxu2021-hackiot-deploy-44bik5.streamlitapp.com/' target="_blank">
+                                <a href='https://haotianxu2021-hackiot-deploy-44bik5.streamlitapp.com/' target="_blank" rel="noreferrer">
                                     <Button size='sm' variant='plain' sx={{ paddingLeft: 0, marginLeft: 0, paddingRight: 0, marginRight: 0, float: 'right' }} >
                                         Demo</Button></a>
                             </div>
@@ -92,7 +90,7 @@ const Project = () => {
                                 <a href='https://drive.google.com/uc?export=download&id=16hR3hSgqR1R2l-1qBIooCbvhTDw4EEUJ' download>
                                     <Button size='sm' variant='plain' sx={{ paddingLeft: 0, marginLeft: 0, paddingRight: 0, marginRight: 0, }} >
                                         Presentation</Button></a>
-                                <a href='https://drive.google.com/file/d/1Wc9z3dYu3Bzy16LoFIsR0ICuXyF7Olq3/view?usp=sharing' target="_blank">
+                                <a href='https://drive.google.com/file/d/1Wc9z3dYu3Bzy16LoFIsR0ICuXyF7Olq3/view?usp=sharing' target="_blank" rel="noreferrer">
                                     <Button size='sm' variant='plain' sx={{ paddingLeft: 0, marginLeft: 0, paddingRight: 0, marginRight: 0, float: 'right' }} >
                                         Demo Video</Button></a>
                             </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import Home from './pages/Home';
-import { CssVarsProvider, useColorScheme } from '@mui/joy/styles';
+import { CssVarsProvider } from '@mui/joy/styles';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/header/Header';
 import Resume from './pages/Resume';
