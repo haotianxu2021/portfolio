@@ -1,0 +1,17 @@
+.rightdate {
+    margin-left: 15px;
+}
+
+.leftdate {
+    margin-right: 15px;
+}
+
+@media screen and (max-width: 1170px) {
+    .rightdate {
+        margin-left: 0px;
+    }
+    
+    .leftdate {
+        margin-right: 0px;
+    }
+}
