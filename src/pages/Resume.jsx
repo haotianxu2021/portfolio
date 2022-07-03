@@ -14,7 +14,7 @@ const Resume = () => {
                     mx: 'auto', // margin left & right
                     my: 0, // margin top & botom
                     py: 10, // padding top & bottom
-                    height:1200,
+                    height:{md:'80vw', sm:'90vw', xs:'115vw'},
                     display: 'flex',
                     flexDirection: 'row',
                     gap: 2,
@@ -23,7 +23,7 @@ const Resume = () => {
                     alignItems: 'flex-start',
                     alignContent: 'flex-start',
                 }}>
-                    <Card component="div" sx={{ minWidth: '100%', flexGrow: 1, height: '100%', mx:'auto' }}>
+                    <Card component="div" sx={{ minWidth: '80%', flexGrow: 1, height: '100%', mx:'auto' }}>
                         <CardCover>
                             <img
                                 src={img}
