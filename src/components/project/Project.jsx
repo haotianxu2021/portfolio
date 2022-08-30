@@ -39,7 +39,7 @@ const Project = () => {
                         flexDirection: { xs: 'column', sm: 'row' }, mr: 'auto', alignItems: 'flex-start',
                     }}>
                         
-                        <Card variant="outlined" sx={{ maxWidth: {lg:'28%', md:'40%', xs:'80%'}, ml: 'auto', mr: 'auto' }}>
+                        <Card variant="outlined" sx={{ width: {lg:'28%', md:'40%', xs:'80%'}, ml: 'auto', mr: 'auto' }}>
                             <CardOverflow>
                                 <AspectRatio ratio="2">
                                     <img
@@ -67,7 +67,7 @@ const Project = () => {
                                         Demo</Button></a>
                             </div>
                         </Card>
-                        <Card variant="outlined" sx={{ maxWidth: {lg:'28%', md:'40%', xs:'80%'}, ml: 'auto', mr: 'auto' }}>
+                        <Card variant="outlined" sx={{ width: {lg:'28%', md:'40%', xs:'80%'}, ml: 'auto', mr: 'auto' }}>
                             <CardOverflow>
                                 <AspectRatio ratio="2">
                                     <img
@@ -95,7 +95,7 @@ const Project = () => {
                                         Demo Video</Button></a>
                             </div>
                         </Card>
-                        <Card variant="outlined" sx={{ maxWidth: {lg:'28%', md:'40%', xs:'80%'}, ml: 'auto', mr: 'auto' }}>
+                        <Card variant="outlined" sx={{ width: {lg:'28%', md:'40%', xs:'80%'}, ml: 'auto', mr: 'auto' }}>
                             <CardOverflow>
                                 <AspectRatio ratio="2">
                                     <img
@@ -123,7 +123,7 @@ const Project = () => {
                                     Demo</Button>
                             </div>
                         </Card>
-                        <Card variant="outlined" sx={{ maxWidth: {lg:'28%', md:'40%', xs:'80%'}, ml: 'auto', mr: 'auto' }}>
+                        <Card variant="outlined" sx={{ width: {lg:'28%', md:'40%', xs:'80%'}, ml: 'auto', mr: 'auto' }}>
                             <CardOverflow>
                                 <AspectRatio ratio="2">
                                     <img
@@ -151,7 +151,7 @@ const Project = () => {
                                     Demo</Button>
                             </div>
                         </Card>
-                        <Card variant="outlined" sx={{ maxWidth: {lg:'28%', md:'40%', xs:'80%'}, ml: 'auto', mr: 'auto' }}>
+                        <Card variant="outlined" sx={{ width: {lg:'28%', md:'40%', xs:'80%'}, ml: 'auto', mr: 'auto' }}>
                             <CardOverflow>
                                 <AspectRatio ratio="2">
                                     <img
@@ -179,9 +179,9 @@ const Project = () => {
                                     Demo</Button>
                             </div>
                         </Card>
-                        <Card variant="outlined" sx={{ maxWidth: {lg:'28%', md:'40%', xs:'80%'}, ml: 'auto', mr: 'auto', visibility:'hidden' }}>
+                        <Card variant="outlined" sx={{ width: {lg:'28%', md:'40%', xs:'80%'}, ml: 'auto', mr: 'auto', visibility:'hidden' }}>
                         <Typography level="body3" sx={{ mb: 1 }}>
-                                1111111111111111111111111111111 11111111111111111111111111111111
+                                111111111111111111111111 111111111 111111111111 1111111111111 1111111111
                             </Typography>
                         </Card>
                     </Box>

@@ -10,7 +10,8 @@ import DownloadIcon from '@mui/icons-material/Download';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
 import ChatIcon from '@mui/icons-material/Chat';
-import photo from '../../assets/photo_Haotian Xu.jpg'
+import photo from '../../assets/photo_Haotian Xu.jpg';
+import img from '../../assets/Photo_Haotian_Xu_Startinvest.jpg'
 const About = () => {
   return (
     <CssVarsProvider>
@@ -25,11 +26,11 @@ const About = () => {
         gap: 2,
         border: 0,
       }}>
-        <a href="https://ibb.co/6smsrj2" style={{
+        <a href="#" style={{
           marginLeft: 'auto', marginRight: 'auto'
         }}>
-          <Avatar alt="HAOTIAN XU" src={photo} size='lg' sx={{
-            width: 'auto', height: '20vh'
+          <Avatar alt="HAOTIAN XU" src={img} size='lg' sx={{
+            width: '20vh', height: '20vh', objectFit:'contain'
           }} />
         </a>
         <Typography level="h4" sx={{
