@@ -26,13 +26,13 @@ const About = () => {
         gap: 2,
         border: 0,
       }}>
-        <a href="#" style={{
+        <div style={{
           marginLeft: 'auto', marginRight: 'auto'
         }}>
           <Avatar alt="HAOTIAN XU" src={img} size='lg' sx={{
             width: '20vh', height: '20vh', objectFit:'contain'
           }} />
-        </a>
+        </div>
         <Typography level="h4" sx={{
           ml: 'auto', mr: 'auto',
         }}>Haotian Xu</Typography>
