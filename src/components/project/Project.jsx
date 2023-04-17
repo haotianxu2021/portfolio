@@ -13,6 +13,8 @@ import img3 from '../../assets/3.png';
 import img4 from '../../assets/4.jpg';
 import img5 from '../../assets/5.png';
 import imgMario from '../../assets/mario2.png';
+import imgPac from '../../assets/pacman.png';
+import imgKart from '../../assets/kart.png';
 
 const Project = () => {
     return (
@@ -43,6 +45,60 @@ const Project = () => {
                             <CardOverflow>
                                 <AspectRatio ratio="2">
                                     <img
+                                        src={imgKart}
+                                        alt=""
+                                    />
+                                </AspectRatio>
+
+                            </CardOverflow>
+                            <Typography level="h2" sx={{ fontSize: 'md', mt: 2 }}>
+                            Mario Kart Game
+                            </Typography>
+                            <Typography level="body2" sx={{ mt: 0.5, mb: 0.5 }}>
+                            A 3D Car racing game using C++ and SDL library. It has 1 self-driving AI with path finding features.
+                            </Typography>
+                            <Typography level="body3" sx={{ mb: 1 }}>
+                                C++ | Object-oriented Programming | Game Programming 
+                            </Typography>
+                            <div>
+                                    <Button size='sm' variant='plain' sx={{ paddingLeft: 0, marginLeft: 0, paddingRight: 0, marginRight: 0, }} disabled>
+                                        Presentation</Button>
+                                <a href='./Lab08.html' target="_blank" rel="noreferrer">
+                                    <Button size='sm' variant='plain' sx={{ paddingLeft: 0, marginLeft: 0, paddingRight: 0, marginRight: 0, float: 'right' }} >
+                                        Demo</Button></a>
+                            </div>
+                        </Card>
+                        <Card variant="outlined" sx={{ width: {lg:'28%', md:'40%', xs:'80%'}, ml: 'auto', mr: 'auto' }}>
+                            <CardOverflow>
+                                <AspectRatio ratio="2">
+                                    <img
+                                        src={imgPac}
+                                        alt=""
+                                    />
+                                </AspectRatio>
+
+                            </CardOverflow>
+                            <Typography level="h2" sx={{ fontSize: 'md', mt: 2 }}>
+                            Pac-Man Game
+                            </Typography>
+                            <Typography level="body2" sx={{ mt: 0.5, mb: 0.5 }}>
+                            A 2D Pac-Man game using C++ and SDL library. It has 4 different AIs with path finding features. Press 1 in game to see or hide their targets.
+                            </Typography>
+                            <Typography level="body3" sx={{ mb: 1 }}>
+                                C++ | Object-oriented Programming | Game Programming 
+                            </Typography>
+                            <div>
+                                    <Button size='sm' variant='plain' sx={{ paddingLeft: 0, marginLeft: 0, paddingRight: 0, marginRight: 0, }} disabled>
+                                        Presentation</Button>
+                                <a href='./Lab05.html' target="_blank" rel="noreferrer">
+                                    <Button size='sm' variant='plain' sx={{ paddingLeft: 0, marginLeft: 0, paddingRight: 0, marginRight: 0, float: 'right' }} >
+                                        Demo</Button></a>
+                            </div>
+                        </Card>
+                        <Card variant="outlined" sx={{ width: {lg:'28%', md:'40%', xs:'80%'}, ml: 'auto', mr: 'auto' }}>
+                            <CardOverflow>
+                                <AspectRatio ratio="2">
+                                    <img
                                         src={imgMario}
                                         alt=""
                                     />
@@ -50,7 +106,7 @@ const Project = () => {
 
                             </CardOverflow>
                             <Typography level="h2" sx={{ fontSize: 'md', mt: 2 }}>
-                            Mario Game Project
+                            Mario Game
                             </Typography>
                             <Typography level="body2" sx={{ mt: 0.5, mb: 0.5 }}>
                             A 2D Mario-style platform game using C++ and SDL library.
