@@ -12,6 +12,7 @@ import img2 from '../../assets/2.png';
 import img3 from '../../assets/3.png';
 import img4 from '../../assets/4.jpg';
 import img5 from '../../assets/5.png';
+import imgMario from '../../assets/mario2.png';
 
 const Project = () => {
     return (
@@ -38,7 +39,33 @@ const Project = () => {
                         display: 'flex', gap: 0.5, flexWrap: 'wrap', ml: 'auto', pb:10,
                         flexDirection: { xs: 'column', sm: 'row' }, mr: 'auto', alignItems: 'flex-start',
                     }}>
-                        
+                        <Card variant="outlined" sx={{ width: {lg:'28%', md:'40%', xs:'80%'}, ml: 'auto', mr: 'auto' }}>
+                            <CardOverflow>
+                                <AspectRatio ratio="2">
+                                    <img
+                                        src={imgMario}
+                                        alt=""
+                                    />
+                                </AspectRatio>
+
+                            </CardOverflow>
+                            <Typography level="h2" sx={{ fontSize: 'md', mt: 2 }}>
+                            Mario Game Project
+                            </Typography>
+                            <Typography level="body2" sx={{ mt: 0.5, mb: 0.5 }}>
+                            A 2D Mario-style platform game using C++ and SDL library.
+                            </Typography>
+                            <Typography level="body3" sx={{ mb: 1 }}>
+                                C++ | Object-oriented Programming | Game Programming 
+                            </Typography>
+                            <div>
+                                    <Button size='sm' variant='plain' sx={{ paddingLeft: 0, marginLeft: 0, paddingRight: 0, marginRight: 0, }} disabled>
+                                        Presentation</Button>
+                                <a href='./Lab04.html' target="_blank" rel="noreferrer">
+                                    <Button size='sm' variant='plain' sx={{ paddingLeft: 0, marginLeft: 0, paddingRight: 0, marginRight: 0, float: 'right' }} >
+                                        Demo</Button></a>
+                            </div>
+                        </Card>
                         <Card variant="outlined" sx={{ width: {lg:'28%', md:'40%', xs:'80%'}, ml: 'auto', mr: 'auto' }}>
                             <CardOverflow>
                                 <AspectRatio ratio="2">

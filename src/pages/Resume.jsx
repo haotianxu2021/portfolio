@@ -3,7 +3,7 @@ import { CssVarsProvider } from '@mui/joy/styles';
 import Sheet from '@mui/joy/Sheet';
 import Card from '@mui/joy/Card';
 import CardCover from '@mui/joy/CardCover';
-import img from '../assets/7.jpg';
+import img from '../assets/7.png';
 const Resume = () => {
 
     return (
