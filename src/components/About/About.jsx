@@ -47,7 +47,7 @@ const About = () => {
         }}>Haotian Xu is a raising senior in University of Southern California. He is a fast-learner and hard-worker.
           He is looking for 2023 Summer interns and master programs starting from 2023 Fall.</Typography>
         <Box sx={{ ml: 'auto', mr: 'auto', gap: 1, display: 'flex', flexDirection:{md:'row', sm:'column', xs:'column'} }}>
-          <a href='https://drive.google.com/uc?export=download&id=1cDicK_qW64GDluRm2If9wfQi062TtW9i' download>
+          <a href='https://drive.google.com/uc?export=download&id=1ddELGLTN2OyOd9TdYCtW5wOC2H6tMuKb' download>
             <Button size='sm' variant='solid' color='info' startIcon={<DownloadIcon />} >Download CV</Button>
           </a>
           <a href='https://www.linkedin.com/in/haotian-xu-xht2021/' target="_blank" rel="noreferrer">
