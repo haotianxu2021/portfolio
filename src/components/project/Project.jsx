@@ -94,7 +94,7 @@ const Project = () => {
                                     <Button size='sm' variant='plain' sx={{ paddingLeft: 0, marginLeft: 0, paddingRight: 0, marginRight: 0, }}>
                                         Presentation</Button></a>
                                         <a href='https://github.com/haotianxu2021/Smart-Plant-Monitor' target="_blank" rel="noreferrer">
-                                    <Button size='sm' variant='plain' sx={{ paddingLeft: 0, marginLeft: '20%', paddingRight: 0, marginRight: '5%', textAlign:'center' }}>
+                                    <Button size='sm' variant='plain' sx={{ paddingLeft: 0, marginLeft: '10%', paddingRight: 0, marginRight: '5%', textAlign:'center' }}>
                                         Github</Button></a>
                                 <a href='https://drive.google.com/file/d/1FRaiffoZBVZCE42gkoSuI5-bi1mAvfIH/view?usp=sharing' target="_blank" rel="noreferrer">
                                     <Button size='sm' variant='plain' sx={{ paddingLeft: 0, marginLeft: 0, paddingRight: 0, marginRight: 0, float: 'right' }} >
@@ -235,7 +235,7 @@ const Project = () => {
                                     <Button size='sm' variant='plain' sx={{ paddingLeft: 0, marginLeft: 0, paddingRight: 0, marginRight: 0, }} >
                                         Presentation</Button></a>
                                         <a href='https://github.com/haotianxu2021/hackIoT' target="_blank" rel="noreferrer">
-                                    <Button size='sm' variant='plain' sx={{ paddingLeft: 0, marginLeft: '20%', paddingRight: 0, marginRight: '5%', textAlign:'center' }}>
+                                    <Button size='sm' variant='plain' sx={{ paddingLeft: 0, marginLeft: '10%', paddingRight: 0, marginRight: '5%', textAlign:'center' }}>
                                         Github</Button></a>
                                 <a href='https://haotianxu2021-hackiot-deploy-44bik5.streamlitapp.com/' target="_blank" rel="noreferrer">
                                     <Button size='sm' variant='plain' sx={{ paddingLeft: 0, marginLeft: 0, paddingRight: 0, marginRight: 0, float: 'right' }} >
@@ -266,7 +266,7 @@ const Project = () => {
                                     <Button size='sm' variant='plain' sx={{ paddingLeft: 0, marginLeft: 0, paddingRight: 0, marginRight: 0, }} >
                                         Presentation</Button></a>
                                         <a href='https://github.com/gridsusc/mindspark-10-team-Renaissaince' target="_blank" rel="noreferrer">
-                                    <Button size='sm' variant='plain' sx={{ paddingLeft: 0, marginLeft: '20%', paddingRight: 0, marginRight: '5%', textAlign:'center' }}>
+                                    <Button size='sm' variant='plain' sx={{ paddingLeft: 0, marginLeft: '10%', paddingRight: 0, marginRight: '5%', textAlign:'center' }}>
                                         Github</Button></a>
                                 <a href='https://drive.google.com/file/d/1Wc9z3dYu3Bzy16LoFIsR0ICuXyF7Olq3/view?usp=sharing' target="_blank" rel="noreferrer">
                                     <Button size='sm' variant='plain' sx={{ paddingLeft: 0, marginLeft: 0, paddingRight: 0, marginRight: 0, float: 'right' }} >
@@ -325,7 +325,7 @@ const Project = () => {
                                     <Button size='sm' variant='plain' sx={{ paddingLeft: 0, marginLeft: 0, paddingRight: 0, marginRight: 0, }} >
                                         Presentation</Button></a>
                                         <a href='https://github.com/haotianxu2021/Marshall_data_competition_2021' target="_blank" rel="noreferrer">
-                                    <Button size='sm' variant='plain' sx={{ paddingLeft: 0, marginLeft: '20%', paddingRight: 0, marginRight: '20%', textAlign:'center' }}>
+                                    <Button size='sm' variant='plain' sx={{ paddingLeft: 0, marginLeft: '10%', paddingRight: 0, marginRight: '20%', textAlign:'center' }}>
                                         Github</Button></a>
                                 <Button disabled size='sm' variant='plain' sx={{ paddingLeft: 0, marginLeft: 0, paddingRight: 0, marginRight: 0, float: 'right' }} >
                                     Demo</Button>
